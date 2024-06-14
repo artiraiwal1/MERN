@@ -1,0 +1,11 @@
+<script>
+    var obj1 = {id : 100 , Name :'Aarti',Age : 19};
+    var obj2 = {id : 110 , Name :'Bharti',Age : 19 , Mark : 90 , Mobile : 7866453434};
+    document.write(obj1.id +" "+ obj1.Name +" "+ obj1.Age);
+    document.write("<br>"+obj2.id +" "+ obj2.Name +" "+ obj2.Age +" "+obj2.Mark +" "+ obj2.Mobile);
+    var obj3 = {...obj2,salary :40000};
+    document.write("<br>"+obj3.id +" "+ obj3.Name +" "+ obj3.Age +" "+obj3.Mark +" "+ obj3.Mobile+" "+obj3.salary);
+   
+    document.write("<br> Object Are Equals and Not :"+JSON.stringify(obj2)===JSON.stringify(obj3));
+
+</script>
