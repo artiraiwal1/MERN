@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #252525;
+        }
+        *{
+    margin: 0px;
+}
+#container{
+    height:auto;
+    width:100%;
+    margin:auto;
+}
+#header{ 
+     height: 120px;
+     background-color: black;
+     display: flex;
+      justify-content: space-between;
+}
+#header label,#icon
+{
+    display: none;
+}
+
+#imglogo{
+    margin-top: -5px;
+    height: 130px;
+    width: 130px;
+    
+}
+#co{
+    font-size: 40px;
+    color:white;
+    
+}
+
+ #nav{
+    z-index: 1;
+    position: sticky;
+    top:0;
+     height: 50px;
+    width: 600px; 
+}
+#nav ul{
+    list-style: none;
+    margin-top: 20px;
+    padding: 25px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    color:white;
+    font-family: candara;
+    font-size: 22px;
+    margin-left:30px;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    color :#C06B3E;
+}
+#img{
+   
+    height: 700px;
+    background-color: white;
+}
+#im{
+    height:100%;
+    width: 100%;
+}
+#about{
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+#about1{
+    height: 200px;
+    width: 500px;
+    margin-top: 20px;
+    
+}
+#ab{
+    font-size: 30px;
+    color: orange;
+    font-family: candara;
+}
+#cont{
+    font-size: 20px;
+    color: white;
+}
+#demo{
+    height: 20px;
+    width: 120px;
+    background-color: white;
+    color: white;
+    padding:15px;
+}
+#image{
+    height: 520px;
+    width:200px;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+#i{
+    height: 300px;
+}
+#gallary{
+    height: 1600px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#gal{
+    font-size: 25px;
+    color: orange;
+    font-family: candara;
+}
+#conn{
+    font-family: candara;
+    font-size: 20px;
+
+}
+#fr{
+    height: 400px;
+}
+#gall{
+    margin-left: 35px;
+    height: 380px;
+    width: 360px;
+}
+#re{
+    height: 45x;
+    width: 150px;
+    background-color: white;
+    color: white;
+}
+#service{
+    height: 600px;
+   
+}
+#ser{
+    font-size: 30px;
+    color: orange;
+    font-family: candara;
+}
+#se{
+    font-size: 20px;
+    
+}
+#fri{
+    height: 370px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#fri-1{
+    height: 360px;
+    width: 360px;
+    background-color: whitesmoke;
+   
+}
+#immm{
+    height: 50px;
+    margin-top: 80px;
+}
+#coo{
+    font-size: 18px;
+    font-family: candara;
+}
+#cooo{
+    font-size: 18px;
+    font-family: candara;
+}
+#contact{
+    height:490px;
+    padding: 30px;
+    font-family: candara;
+}
+#back{
+    height:250px ;
+    background-color:black;
+    padding: 20px;
+}
+#contact1,#contact2,#contact3{
+    height: 250px;
+    width: 230px;
+    font-size: 20px;
+    font-family: candara;
+   color: white;
+    margin: 5px;
+    float:left;
+    padding: 20px;
+    line-height: 30px;
+}
+#contact4{
+    height: 290px;
+    width: 285px;
+    margin: 5px;
+    float:left;
+    color: white;
+    font-size: 20px; 
+    
+}
+#contact4 ul{
+    list-style: none;
+    padding: 25px;
+}
+#contact4 ul li{
+    display: inline;
+}
+#contact4 ul li a{
+    color:white;
+    font-family: candara;
+    font-size: 20px;
+    margin-left:30px;
+    text-decoration: none;
+}
+#contact4 ul li a:hover{
+    color :red;
+}
+
+#footer{
+    height: 100px;
+   
+}
+#foot{
+    font-size: 20px;
+    color: white;
+}
+@media screen and (min-device-width: 360px) and (max-device-width: 720px){    
+    *{
+        margin: 0px;
+    }
+    #container{
+        height:auto;
+        width:95%;
+        margin:auto;
+    }
+    #header{
+        
+         height: 120px;
+         /* background-color: #252525; */
+         display: flex;
+          justify-content: space-between;
+          /* border: 2px solid yellow; */
+    }
+    #header label
+    {
+            display: block;
+            margin-top: 30px;
+           margin-left: 150px;
+         border: 1px solid red;
+
+    }
+    #icon:checked~#navbar
+    {
+        display: inline;
+    }
+    #name{
+        height: 15px;
+        width: 80px;
+         padding: 9px;
+         margin-top: 7px; 
+       /* border: 2px solid red; */
+    }
+    #co{
+        font-size: 15px;
+        color: white;
+        margin-right: 10px;
+    }
+    #nav{
+      
+        position: sticky;
+        /* top:0; */
+         height: 50px;
+        width: 300px; 
+        /* background-color: blue;  */
+    }
+    #nav ul{
+        margin-top: 100px;
+        list-style: none;
+        margin-right: 80px;
+        /* padding: 1px; */
+    }
+    #nav ul li{
+        display: inline;
+        background-color: antiquewhite;
+    }
+    #nav ul li a{
+       
+        color:black;
+        font-family: candara;
+        font-size: 15px;
+        /* margin-:5px; */
+        text-decoration: none;
+    }
+    #nav ul li a:hover{
+        color :red;
+    }
+    #img{
+       
+        height: 320px;
+        background-color: white;
+        /* border: 5px solid red; */
+    }
+    #im{
+        height: 320px;
+        width: 100%;
+    }
+    #about{
+        height: 440px;
+        padding: 1px;
+        /* display: flex;
+        justify-content: space-evenly; */
+        border: 5px solid red;
+    }
+    #about1{
+        height: 400px;
+        width: 500px;
+        margin-left: -50px;
+        /* margin-top: 20px;s */
+        border: 2px solid black;
+        padding: 6px;
+    }
+    #ab{
+        font-size: 15px;
+        color: orange;
+        border: 1px solid red;
+        /* margin-top: -10px; */
+        font-family: candara;
+
+    }
+    #cont{
+        font-size: 15px;
+        color: gray;
+    }
+    #demo{
+        height: 20px;
+        width: 120px;
+        /* background-color: black; */
+        color: white;
+        padding: 15px;
+    }
+    #image{
+        height: 300px;
+        width: 50px;
+        margin-top: 80px;
+        /* border: 5px solid red; */
+    }
+    #i{
+        height: 220px;
+        width: 150px;
+    }
+    #gallary{
+        height: 1050px;
+        /* border: 2px solid red; */
+        margin-top: -20px;
+    }
+    #gal{
+        font-size: 16px;
+        color: orange;
+        font-family: candara;
+    }
+    #conn{
+        font-family: candara;
+        font-size: 15px;
+    
+    }
+    #fr{
+        height: 240px;
+       
+    }
+    #gall{
+        margin-left: 10px;
+        height: 190px;
+        width: 28%;
+    }
+    #re{
+        height: 45x;
+        width: 150px;
+        background-color: black;
+        color: white;
+    }
+    #service{
+        /* border: 1px solid red; */
+        height: 520px;
+       
+    }
+    #ser{
+        font-size: 18px;
+        color: orange;
+        font-family: candara;
+    }
+    #se{
+        font-size: 15px;
+        
+    }
+    #fri{
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+       
+    }
+    #fri-1{
+        height: 320px;
+        width: 560px;
+        border: 1px solid black;
+        background-color: whitesmoke;
+       
+    }
+    #immm{
+        height: 40px;
+        margin-top: 30px;
+    }
+    #coo{
+        font-size: 11px;
+        font-family: candara;
+    }
+    #cooo{
+        font-size: 16px;
+        font-family: candara;
+    }
+    #contact{
+        /* border:  2px solid red; */
+        height:600px;
+        margin-left: 30px;
+        font-family: candara;
+    }
+    
+    #back{
+        height:600px ;
+        width:100%;
+         background-color:#252525; 
+        /* background-color: blue; */
+        padding: 2px;
+        /* border: 1px solid red */
+    }
+    #contact1,#contact2,#contact3{
+        height: 120px;
+        width: 200px;
+        font-size: 14px;
+        font-family: candara;
+       color: white;
+        margin: 5px;
+        /* float:left; */
+        padding: 10px;
+        line-height: 20px;
+        margin-left: 20px;
+        border: 1px solid black;
+    }
+    #contact4{
+        height: 140px;
+        width: 220px;
+        margin: 5px;
+        float:left;
+        color: white;
+        font-size: 15px; 
+        margin-left: 20px;
+        border: 1px solid black;
+        
+    }
+    #contact4 ul{
+        list-style: none;
+        padding: 4px;
+    }
+    #contact4 ul li{
+        display: inline;
+    }
+    #contact4 ul li a{
+        color:white;
+        font-family: candara;
+        font-size: 17px;
+        margin-left:1px;
+        text-decoration: none;
+    }
+    #contact4 ul li a:hover{
+        color :red;
+    }
+    #footer{
+        height:80px;
+       /* background-color: aqua; */
+       margin-top: 100px;
+    }
+    #foot{
+        font-size: 18px;
+        margin-left: 16px;
+    }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 720px){
+    #co{
+        font-size: 22px;
+        color: white;
+        margin-right: 10px;
+    }
+
+    #nav ul li a{
+        color:white;
+        font-family: candara;
+        font-size: 17px;
+        margin-left:5px;
+        text-decoration: none;
+    }
+    
+    #contact{
+        /* border:  2px solid red; */
+        height:400px;
+        margin-left: 30px;
+        font-family: candara;
+    }
+    #back{
+        height: 410px ;
+        width:84%;
+         /* background-color:#252525;  */
+        /* background-color: blue; */
+        padding: 2px;
+        /* border: 1px solid red */
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+         <div id="header">
+            <img id="imglogo"  src="https://cdn.vectorstock.com/i/1000x1000/93/04/shopping-cart-icon-on-black-background-flat-vector-26849304.webp" alt="">
+            <div id="nav">
+                <ul>
+                    <li><a href="\home">HOME</a></li>
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="gallery">Gallary</a></li>
+                    <li><a href="service">Service</a></li>
+                    <li><a href="contact">Contact Us</a></li>          
+                </ul>
+            </div>
+         </div>
+            <div id="contact">b
+                
+                <center><h1>Contact Us</h1></center>
+                <br><br><br>
+                <div id="back">
+                <div id="contact2">
+                    <h3> About</h3><br>
+                   <p>
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
+                </div>
+                <div id="contact1">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Gallery</li>
+                        <li>Services</li>
+                        <li>Contact us</li>     
+                    </ul>
+                </div>
+                <div id="contact3">
+                    <h3>Useful Link</h3>
+                    <span>Adipiscing <br> Elit, sed do <br> Eiusmod <br> Tempor <br> incididunt</span>
+                </div>
+                <div id="contact4"><br>
+                    <center>
+                    <h3 >Contact us</h3>
+                    <ul>
+                        <li><a href="">Address : Lorem lupus</a></li><br><br>
+                        <li><a href="">Call : +11 234567891011</a></li><br><br>
+                        <li><a href="">Email : mail@dom.com</a></li>
+                    </ul>
+                    </center>
+                </div>
+            </div>
+            </div>
+            <div id="footer">
+                <center><span id="foot">2045 All Rights Reserved. By HTML Design</span></center>
+ 
+            </div>
+    </div>
+</body>
+</html>
